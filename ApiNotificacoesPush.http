@@ -1,0 +1,6 @@
+@ApiNotificacoesPush_HostAddress = http://localhost:5223
+
+GET {{ApiNotificacoesPush_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

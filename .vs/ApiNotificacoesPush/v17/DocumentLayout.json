@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\controllers\\notificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:controllers\\notificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\models\\notificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:models\\notificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:08:51.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificacoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Controllers\\NotificacoesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificacoesController.cs",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Controllers\\NotificacoesController.cs",
+              "RelativeToolTip": "Controllers\\NotificacoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:45:48.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificacaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Models\\NotificacaoDto.cs",
+              "RelativeDocumentMoniker": "Models\\NotificacaoDto.cs",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Models\\NotificacaoDto.cs",
+              "RelativeToolTip": "Models\\NotificacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:36:13.773Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

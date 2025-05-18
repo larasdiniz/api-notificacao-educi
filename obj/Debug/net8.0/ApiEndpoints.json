@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ApiNotificacoesPush.Controllers.NotificacoesController",
+    "Method": "EnviarNotificacao",
+    "RelativePath": "api/Notificacoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ApiNotificacoesPush.Models.NotificacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

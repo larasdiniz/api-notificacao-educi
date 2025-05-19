@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiNotificacoesPush")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b99daed44d67749e87ba277c0d00720f291c4eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dceb158c7fd40bf3d145a4fde8c24d491a793e64")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiNotificacoesPush")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiNotificacoesPush")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

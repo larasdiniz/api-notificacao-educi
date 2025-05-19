@@ -4,6 +4,6 @@
     {
         public string TokenDispositivo { get; set; }
         public string Titulo { get; set; }
-        public int Mensagem { get; set; }
+        public string Mensagem { get; set; }
     }
 }

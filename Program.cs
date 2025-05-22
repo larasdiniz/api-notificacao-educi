@@ -8,11 +8,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configuração do Firebase (API v1)
-var firebaseCredential = GoogleCredential.FromFile("firebase-service-account.json");
+// Configuração do Firebase (API v1) - Modificação para o Render
+var firebaseCredentialsJson = builder.Configuration["FIREBASE_CREDENTIALS_JSON"]
+                             ?? Environment.GetEnvironmentVariable("FIREBASE_CREDENTIALS_JSON");
+
+if (string.IsNullOrEmpty(firebaseCredentialsJson))
+{
+    throw new Exception("Variável FIREBASE_CREDENTIALS_JSON não encontrada.");
+}
+
 FirebaseApp.Create(new AppOptions()
 {
-    Credential = firebaseCredential
+    Credential = GoogleCredential.FromJson(firebaseCredentialsJson)
 });
 
 var app = builder.Build();

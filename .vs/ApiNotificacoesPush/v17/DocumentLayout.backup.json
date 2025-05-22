@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:controllers\\notificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\firebase-service-account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:firebase-service-account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\models\\notificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:models\\notificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "firebase-service-account.json",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\firebase-service-account.json",
+              "RelativeDocumentMoniker": "firebase-service-account.json",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\firebase-service-account.json",
+              "RelativeToolTip": "firebase-service-account.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T14:18:21.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -38,30 +54,30 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-19T13:27:31.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T13:27:31.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T14:08:51.085Z"
+              "WhenOpened": "2025-05-14T14:08:51.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "NotificacoesController.cs",
               "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Controllers\\NotificacoesController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificacoesController.cs",
               "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Controllers\\NotificacoesController.cs",
               "RelativeToolTip": "Controllers\\NotificacoesController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAwwB8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T13:45:48.663Z"
             },
@@ -73,7 +89,7 @@
               "RelativeDocumentMoniker": "Models\\NotificacaoDto.cs",
               "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Models\\NotificacaoDto.cs",
               "RelativeToolTip": "Models\\NotificacaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T13:36:13.773Z"
             }

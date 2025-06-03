@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "Wp4/TK3TEzPzn/4is0X2lxsdi+XO34Rves++UC72etI=",
-  "Source": "ApiNotificacoesPush",
-  "BasePath": "_content/ApiNotificacoesPush",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"ZlQkeWCTkFwo74+4MhFMvlMGb9Mwp+4GfXZ+U+3w6HM=","Source":"ApiNotificacoesPush","BasePath":"_content/ApiNotificacoesPush","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

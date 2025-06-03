@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\controllers\\dispositivoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:controllers\\dispositivoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\firebase-service-account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:firebase-service-account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +35,20 @@
       "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:controllers\\notificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\models\\notificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:models\\notificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\entities\\dispositivousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:entities\\dispositivousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\firebase-service-account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:firebase-service-account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\models\\notificacaousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:models\\notificacaousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\users\\lara santana\\documents\\estudo\\projetos\\apinotificacoespush\\models\\registrotokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:models\\registrotokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +58,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-03T14:40:19.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:32:19.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-30T14:24:06.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DispositivosController.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Controllers\\DispositivosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DispositivosController.cs",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Controllers\\DispositivosController.cs",
+              "RelativeToolTip": "Controllers\\DispositivosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:17:01.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:16:02.492Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -40,61 +130,81 @@
               "RelativeDocumentMoniker": "firebase-service-account.json",
               "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\firebase-service-account.json",
               "RelativeToolTip": "firebase-service-account.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-22T14:18:21.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-19T13:27:31.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T13:27:31.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T14:08:51.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T14:08:51.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "NotificacoesController.cs",
               "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Controllers\\NotificacoesController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificacoesController.cs",
               "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Controllers\\NotificacoesController.cs",
               "RelativeToolTip": "Controllers\\NotificacoesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T13:45:48.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T13:45:48.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotificacaoDto.cs",
-              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Models\\NotificacaoDto.cs",
-              "RelativeDocumentMoniker": "Models\\NotificacaoDto.cs",
-              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Models\\NotificacaoDto.cs",
-              "RelativeToolTip": "Models\\NotificacaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "NotificacaoUsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Models\\NotificacaoUsuarioDto.cs",
+              "RelativeDocumentMoniker": "Models\\NotificacaoUsuarioDto.cs",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Models\\NotificacaoUsuarioDto.cs",
+              "RelativeToolTip": "Models\\NotificacaoUsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T13:36:13.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:51:55.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegistroTokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Models\\RegistroTokenDto.cs",
+              "RelativeDocumentMoniker": "Models\\RegistroTokenDto.cs",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Models\\RegistroTokenDto.cs",
+              "RelativeToolTip": "Models\\RegistroTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:11:57.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DispositivoUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Entities\\DispositivoUsuario.cs",
+              "RelativeDocumentMoniker": "Entities\\DispositivoUsuario.cs",
+              "ToolTip": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\Entities\\DispositivoUsuario.cs",
+              "RelativeToolTip": "Entities\\DispositivoUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:13:51.506Z"
             }
           ]
         }

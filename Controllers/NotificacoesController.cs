@@ -1,80 +1,96 @@
-﻿using ApiNotificacoesPush.Models;
+﻿using ApiNotificacoesPush.Data;
+using ApiNotificacoesPush.Models;
+using FirebaseAdmin;
 using FirebaseAdmin.Messaging;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace ApiNotificacoesPush.Controllers
+[ApiController]
+[Route("api/[controller]")]
+public class NotificacoesController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class NotificacoesController : ControllerBase
+    private readonly ILogger<NotificacoesController> _logger;
+    private readonly AppDbContext _context;
+
+    public NotificacoesController(ILogger<NotificacoesController> logger, AppDbContext context)
     {
-        private readonly ILogger<NotificacoesController> _logger;
+        _logger = logger;
+        _context = context;
+    }
 
-        public NotificacoesController(ILogger<NotificacoesController> logger)
+    [HttpPost("enviar-para-usuario")]
+    public async Task<IActionResult> EnviarNotificacaoParaUsuario([FromBody] NotificacaoUsuarioDto dto)
+    {
+        try
         {
-            _logger = logger;
-        }
+            // Busca o token do usuário no banco de dados
+            var dispositivo = await _context.Dispositivos
+                .FirstOrDefaultAsync(d => d.UsuarioId == dto.UsuarioId);
 
-        [HttpPost]
-        public async Task<IActionResult> EnviarNotificacao([FromBody] NotificacaoDto dto)
-        {
-            if (string.IsNullOrWhiteSpace(dto.TokenDispositivo))
-            {
-                _logger.LogWarning("Token do dispositivo não fornecido");
-                return BadRequest(new { Success = false, Message = "Token do dispositivo é obrigatório" });
-            }
+            if (dispositivo == null)
+                return NotFound("Usuário não possui token registrado");
 
-            try
+            var message = new Message()
             {
-                var message = new Message()
+                Token = dispositivo.TokenDispositivo,
+                Notification = new Notification()
                 {
-                    Token = dto.TokenDispositivo,
-                    Notification = new Notification()
+                    Title = dto.Titulo,
+                    Body = dto.Mensagem
+                },
+                Data = dto.DadosAdicionais ?? new Dictionary<string, string>(),
+                Android = new AndroidConfig
+                {
+                    Priority = Priority.High,
+                    Notification = new AndroidNotification
                     {
-                        Title = dto.Titulo,
-                        Body = dto.Mensagem
-                    },
-                    Android = new AndroidConfig { Priority = Priority.High },
-                    Apns = new ApnsConfig
-                    {
-                        Headers = new Dictionary<string, string>
-                        {
-                            { "apns-priority", "10" }
-                        }
+                        ChannelId = "default_channel_id",
+                        Sound = "default"
                     }
-                };
+                },
+                Apns = new ApnsConfig
+                {
+                    Headers = new Dictionary<string, string> { { "apns-priority", "10" } },
+                    Aps = new Aps
+                    {
+                        Sound = "default",
+                        Badge = dto.BadgeCount
+                    }
+                }
+            };
 
-                string responseId = await FirebaseMessaging.DefaultInstance.SendAsync(message);
+            string responseId = await FirebaseMessaging.DefaultInstance.SendAsync(message);
 
-                _logger.LogInformation($"Notificação enviada com sucesso: {responseId}");
-                return Ok(new
-                {
-                    Success = true,
-                    Message = "Notificação enviada com sucesso!",
-                    ResponseId = responseId
-                });
-            }
-            catch (FirebaseMessagingException ex)
+            _logger.LogInformation($"Notificação enviada para {dto.UsuarioId} - ID: {responseId}");
+
+            return Ok(new
             {
-                _logger.LogError(ex, "Erro no FCM");
-                return StatusCode(500, new
-                {
-                    Success = false,
-                    Message = "Erro ao enviar notificação",
-                    Error = ex.Message,
-                    ErrorCode = ex.ErrorCode
-                });
-            }
-            catch (Exception ex)
+                Success = true,
+                Message = "Notificação enviada com sucesso!",
+                ResponseId = responseId,
+                UsuarioId = dto.UsuarioId
+            });
+        }
+        catch (FirebaseMessagingException ex) when (ex.ErrorCode == ErrorCode.NotFound ||
+                                                 ex.ErrorCode == ErrorCode.InvalidArgument)
+        {
+            // Token inválido - podemos remover do banco
+            var dispositivoInvalido = await _context.Dispositivos
+                .FirstOrDefaultAsync(d => d.UsuarioId == dto.UsuarioId);
+
+            if (dispositivoInvalido != null)
             {
-                _logger.LogCritical(ex, "Erro inesperado");
-                return StatusCode(500, new
-                {
-                    Success = false,
-                    Message = "Erro interno no servidor",
-                    Details = ex.Message
-                });
+                _context.Dispositivos.Remove(dispositivoInvalido);
+                await _context.SaveChangesAsync();
+                _logger.LogWarning($"Token inválido removido para usuário {dto.UsuarioId}");
             }
+
+            return BadRequest(new { Success = false, Message = "Token de dispositivo inválido", Error = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Erro ao enviar notificação");
+            return StatusCode(500, new { Success = false, Message = "Erro interno no servidor" });
         }
     }
 }

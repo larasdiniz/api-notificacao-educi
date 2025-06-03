@@ -1,0 +1,56 @@
+﻿### Build ###
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+out/
+artifacts/
+*.nupkg
+*.pdb
+*.dll
+*.exe
+
+### IDE ###
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.vsidx
+*.vsix
+
+## Rider
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+### Databases ###
+*.db
+*.sqlite
+*.bak
+app.db
+/local.db
+
+### ASP.NET ###
+wwwroot/
+*.Web.Publish.xml
+
+### EF Core ###
+Migrations/*Snapshot.cs
+
+### Logs ###
+*.log
+*.tmp
+[Nn]pm-[Dd]ebug.LOG
+
+### System ###
+Thumbs.db
+.DS_Store

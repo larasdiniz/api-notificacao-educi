@@ -46,8 +46,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-23T17:50:58.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T17:50:58.958Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "firebase-service-account.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-22T14:18:21.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T14:18:21.055Z"
             },
             {
               "$type": "Document",
@@ -80,9 +78,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projetos\\ApiNotificacoesPush\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\projetos\\ApiNotificacoesPush\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "ToolTip": "C:\\projetos\\ApiNotificacoesPush\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T14:08:51.085Z",
               "EditorCaption": ""
@@ -97,8 +95,7 @@
               "RelativeToolTip": "Controllers\\NotificacoesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T13:45:48.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T13:45:48.663Z"
             }
           ]
         }

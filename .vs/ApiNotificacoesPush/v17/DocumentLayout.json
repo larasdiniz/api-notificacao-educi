@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\projetos\\apinotificacoespush\\models\\notificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:models\\notificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\projetos\\apinotificacoespush\\controllers\\notificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:controllers\\notificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\projetos\\apinotificacoespush\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\projetos\\apinotificacoespush\\firebase-service-account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:firebase-service-account.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\projetos\\apinotificacoespush\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\projetos\\apinotificacoespush\\controllers\\notificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|solutionrelative:controllers\\notificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEE6FCDA-143D-4C7F-B8E6-34C3003DC04B}|ApiNotificacoesPush.csproj|c:\\projetos\\apinotificacoespush\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -30,15 +38,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificacaoDto.cs",
+              "DocumentMoniker": "C:\\projetos\\ApiNotificacoesPush\\Models\\NotificacaoDto.cs",
+              "RelativeDocumentMoniker": "Models\\NotificacaoDto.cs",
+              "ToolTip": "C:\\projetos\\ApiNotificacoesPush\\Models\\NotificacaoDto.cs",
+              "RelativeToolTip": "Models\\NotificacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T18:31:21.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\projetos\\ApiNotificacoesPush\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\projetos\\ApiNotificacoesPush\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-23T18:22:11.687Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\projetos\\ApiNotificacoesPush\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -50,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "firebase-service-account.json",
               "DocumentMoniker": "C:\\projetos\\ApiNotificacoesPush\\firebase-service-account.json",
               "RelativeDocumentMoniker": "firebase-service-account.json",
@@ -62,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\projetos\\ApiNotificacoesPush\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -78,16 +112,16 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projetos\\ApiNotificacoesPush\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\projetos\\ApiNotificacoesPush\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "ToolTip": "C:\\projetos\\ApiNotificacoesPush\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T14:08:51.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NotificacoesController.cs",
               "DocumentMoniker": "C:\\projetos\\ApiNotificacoesPush\\Controllers\\NotificacoesController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificacoesController.cs",
@@ -95,7 +129,8 @@
               "RelativeToolTip": "Controllers\\NotificacoesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T13:45:48.663Z"
+              "WhenOpened": "2025-05-14T13:45:48.663Z",
+              "EditorCaption": ""
             }
           ]
         }

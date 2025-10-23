@@ -1,0 +1,27 @@
+# .gitignore para .NET
+bin/
+obj/
+.vs/
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.dll
+*.exe
+
+# Firebase credentials
+firebase-service-account.json

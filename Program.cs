@@ -6,8 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 
-// ✅ USE O ARQUIVO LOCAL - remova a variável de ambiente
-var firebaseJson = File.ReadAllText("firebase-service-account.json");
+// Firebase - Modo Render (só variável de ambiente)
+var firebaseJson = Environment.GetEnvironmentVariable("FIREBASE_CREDENTIALS_JSON")
+                   ?? throw new Exception("Configure FIREBASE_CREDENTIALS_JSON no Render");
 
 FirebaseApp.Create(new AppOptions
 {

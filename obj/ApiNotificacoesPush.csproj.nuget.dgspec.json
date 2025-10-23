@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\ApiNotificacoesPush.csproj": {}
+    "C:\\projetos\\ApiNotificacoesPush\\ApiNotificacoesPush.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\ApiNotificacoesPush.csproj": {
+    "C:\\projetos\\ApiNotificacoesPush\\ApiNotificacoesPush.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\ApiNotificacoesPush.csproj",
+        "projectUniqueName": "C:\\projetos\\ApiNotificacoesPush\\ApiNotificacoesPush.csproj",
         "projectName": "ApiNotificacoesPush",
-        "projectPath": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\ApiNotificacoesPush.csproj",
+        "projectPath": "C:\\projetos\\ApiNotificacoesPush\\ApiNotificacoesPush.csproj",
         "packagesPath": "C:\\Users\\Lara Santana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lara Santana\\Documents\\Estudo\\projetos\\ApiNotificacoesPush\\obj\\",
+        "outputPath": "C:\\projetos\\ApiNotificacoesPush\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,16 +59,6 @@
               "target": "Package",
               "version": "[1.69.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.5, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -93,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
